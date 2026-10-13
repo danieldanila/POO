@@ -199,7 +199,7 @@ int main()
 
 	euroLei.eliberareMemorie();
 	dolarLei.eliberareMemorie();
-	//lireLei.eliberareMemorie();
+	lireLei.eliberareMemorie();
 
 	return 0;
 }
