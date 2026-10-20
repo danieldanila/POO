@@ -244,7 +244,8 @@ public:
 	void afisareCursValutarRomanesc()
 	{
 		this->afiseazaCursValutar();
-		cout << "\tValoarea RON preferentiala este: " << this->valoareRONPreferentiala << endl;
+		cout << "\tValoarea RON preferentiala este: " << this->valoareRONPreferentiala << " (valoarea RON normala este: "
+			<< this->valoareRON << ")" << endl;
 	}
 
 	double getValoareRONPreferentiala() const
@@ -281,11 +282,11 @@ int main()
 
 	cout << "\nValoarea in valuta a 500 RON este: " << euroLei.convertesteInValuta(500) << endl;
 
-	CursValutarRomanesc euroLeiPreferential(4.80);
+	CursValutarRomanesc euroLeiPreferential(5.20);
 	euroLeiPreferential.afiseazaCursValutar();
 	euroLeiPreferential.afisareCursValutarRomanesc();
 	
-	CursValutarRomanesc dolarLeiPreferential(4.80, TipMoneda::DOLAR, 4.60, 0.05f, 5, "Banca Romaneasca 1");
+	CursValutarRomanesc dolarLeiPreferential(4.60, TipMoneda::DOLAR, 4.70, 0.05f, 5, "Banca Romaneasca 1");
 	dolarLeiPreferential.afiseazaCursValutar();
 	dolarLeiPreferential.afisareCursValutarRomanesc();
 
