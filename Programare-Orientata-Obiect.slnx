@@ -5,4 +5,6 @@
   </Configurations>
   <Project Path="Seminar-01/Seminar-01.vcxproj" Id="d71c7cf6-0682-4ceb-b698-64104a4f2df1" />
   <Project Path="Seminar-02/Seminar-02.vcxproj" Id="4e9fc0cf-7638-4b8d-adb4-9b78a06fc023" />
+  <Project Path="Seminar-03-g1045-temporar/Seminar-03-g1045-temporar.vcxproj" Id="42a449d2-916b-488b-9f76-a4bc3f86b316" />
+  <Project Path="Seminar-03/Seminar-03.vcxproj" Id="29645b3f-9777-4440-ad30-d251b28a3e39" />
 </Solution>
