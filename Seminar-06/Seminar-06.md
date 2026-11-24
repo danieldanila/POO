@@ -1,0 +1,1 @@
+În cadrul seminarului 6 s-a susținut prima lucrare practică.
