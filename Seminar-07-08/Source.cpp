@@ -276,7 +276,7 @@ int main()
 
 	try
 	{
-		matrice = new ContEconomii * [numarCompanii] {};
+		matrice = new ContEconomii*[numarCompanii] {};
 
 		for (int i = 0; i < numarCompanii; i++)
 		{
